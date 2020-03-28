@@ -1,13 +1,13 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "DiscoveryGo": {
       "projectType": "application",
       "schematics": {},
-      "root": "",
       "sourceRoot": "src",
+      "root": "",
       "prefix": "app",
       "architect": {
         "build": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "DiscoveryGo"
+    }
+  },
+  "defaultProject": "DiscoveryGo",
+  "cli": {
+    "analytics": false
+  }
 }
