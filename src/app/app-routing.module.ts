@@ -4,6 +4,7 @@ import {AccueilComponent} from './routes/accueil/accueil.component';
 import {LoginComponent} from './routes/login/login.component';
 import {RegisterComponent} from './routes/register/register.component';
 import {PageNotFoundComponent} from './routes/page-not-found/page-not-found.component';
+import {AuthGuard} from "./guard/auth.guard";
 
 
 const routes: Routes = [
@@ -16,7 +17,12 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
-    path : 'enregistrement',
+    path: 'profil',
+    component: LoginComponent,
+    canActivate: [AuthGuard]
+  },
+  {
+    path : 'inscription',
     component: RegisterComponent
   },
   {

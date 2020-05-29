@@ -1,0 +1,16 @@
+#feed{
+  top:500px;
+  margin-top: 10em;
+}
+
+#form{
+  margin-top: 5em;
+}
+mat-card-content{
+  position: static;
+  justify-items: center;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+
+}

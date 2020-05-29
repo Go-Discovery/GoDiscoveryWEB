@@ -1,3 +1,26 @@
-.img_logo{
-  height: 75px;
+.spacer {
+  flex : 1 1 auto;
+}
+
+.image {
+  vertical-align: middle;
+
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.span {
+  display: inline;
+}
+
+
+.mat-elevation-z5{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
 }

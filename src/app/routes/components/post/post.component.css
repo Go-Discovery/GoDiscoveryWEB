@@ -1,0 +1,22 @@
+.div1 {
+  margin: 50px auto auto;
+  width: 50%;
+  border: 1px solid  #9966cc;
+  padding: 10px;
+  color : #003366;
+background :#F5F5F5	;
+
+
+}
+
+
+.aut {display:inline-block;
+font-weight: bold}
+
+.date {display:inline-block;
+font-size: small;
+color: grey}
+
+.ville {
+  font-weight: lighter;
+}
